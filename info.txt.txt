@@ -1,0 +1,10 @@
+Badge 2 Data Application Builders Workshop - Project 1
+
+git remote add origin https://github.com/rjcannizzo/snowflake-badge2-project-1.git
+git branch -M master
+git push -u origin master
+
+The following SSH key was added to the rjcannizzo/snowflake-badge2-project-1 repository by rjcannizzo:
+
+Streamlit - (master, streamlit_app.py)
+SHA256:GNIMLBBdLCkVZvdTbMB79FZi7jnxoOo2UG/nR9ognQ4
