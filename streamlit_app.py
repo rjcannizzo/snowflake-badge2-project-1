@@ -22,9 +22,10 @@ import requests
 
 streamlit.header('Fruityvice Fruit Advice')
 
+choice = streamlit.text_input('What fruit would you like information about?, "Kiwi"')
 BASE_URL = "https://fruityvice.com/api/fruit/"
-FRUIT = "watermelon"
-fruityvice_response = requests.get(f"{BASE_URL}{FRUIT}")
+
+fruityvice_response = requests.get(f"{BASE_URL}{choice}")
 # creates a Pandas dataframe by flattening a json object
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # displays a Pandas dataframe 
